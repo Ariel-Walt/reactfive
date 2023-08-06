@@ -25,7 +25,7 @@ background-color: whitesmoke;
 
    
 
-    .flex-container2 {
+    #flex-container2 {
 
        display: flex;
        position: relative;
@@ -40,7 +40,7 @@ background-color: whitesmoke;
 
 
 
-    .linkStyles {
+    #linkStyles {
 
          text-decoration: none;
          color: white;
@@ -458,37 +458,246 @@ filter: brightness(60%);
 }
 
 
+ .imgStyles {
 
+     text-decoration: none;
+     color: black;
 
+ }
 
-.fade-enter {
-  opacity: 0;
-  
+   
+.footerAbout {
+
+     position: relative;
+     top: 2635px;
+
 }
 
-.fade-enter-active {
+
+    .div-gridContainer {
+
+      position: relative;
+      left: 400px;
+      display: grid;
+      grid-template-rows: repeat(6, 200px);
+      row-gap: 20px;
+
+      
+
+     }
+
+
+     .slideOne {
+
+        border: 1.5px solid red;
+        margin-right: 1200px;
+        padding: 95px;
+        background-color: white;
+
+     }
+
+     
+
+      .slideOne:nth-of-type(1) {
+
+         position: relative;
+         left: -310.5px;
+         height: 335px;
+         border: none;
+         top: 30px;
+         padding-right: 20px;
+
+
+      }
+
+
+      .slideOne:nth-of-type(2) {
+
+           position: relative;
+           left: 35px;
+           top: -189px;
+           border: none;
+           height: 335px;
+           padding-right: 20px;
+           
+           
+      }
+
+       .slideOne:nth-of-type(3) {
+
+          position: relative;
+          left: 381px;
+          top: -409px;
+          border: none;
+          height: 335px;
+          padding-right: 20px;
+       }
+
+
+       .slideOne:nth-of-type(4) {
+
+           position: relative;
+           left: 35.5px;
+           border: none;
+           top: -98px;
+           height: 325px;
+           padding-right: 20px;
+           
+       }
+
+
+
+       .slideOne:nth-of-type(5) {
+
+            position: relative;
+            left: 500px;
+            left: 381px;
+            border: none;
+            top: -318px;
+            height: 325px;
+            padding-right: 20px;
+
+       }
+
+       .slideOne:nth-of-type(6) {
+
+          position: relative;
+          left: 726.5px;
+          border: none;
+          top: -538px;
+          height: 325px;
+          padding-right: 20px;
+                
+
+       }
+
+
+       #careerSpan1 {
+
+           position: relative;
+           top: 10px;
+           left: -5px;
+           
+       }
+
+
+       #careerSpan2 {
+
+        position: relative;
+        top: 10px;
+        left: 62px;
+
+       }
+
+       #careerSpan1:hover {
+
+         color: red;
+         
+
+       }
+
+       #careerSpan2:hover {
+
+           color: red;
+          
+
+       }
+
+
+        .careerStyles {
+
+          color: black; 
+
+
+        }
+
+
+         .inputs {
+
+             position: relative;
+             top: 40px;
+
+         }
+
+       
+
+        input[type="text"] {
+
+          background-color: transparent;
+          border: 1px solid white;
+          padding: 15px;
+          padding-left: 88px;
+          position: relative;
+          left: 194px;
+          top: 140px;
+          color: white;
+          font-size: 15px;
+          transition: border-color 0.3s ease
+
+         }
+
+
+         input[type="text"]:hover {
+
+         border-color: crimson;
+         }
+
+
+
+
+        
+        option[value="Positions"] {
+
+             color: black;
+             background-color: white;
+             position: relative;
+             
+        }
+
+
+       
+        
+
+  .fade-enter {
+   opacity: 0;
+  
+   }
+
+
+  .fade-enter-active {
   opacity: 1;
   transition: opacity 2000ms;
-}
+  }
 
 
-.fade-exit {
+  .fade-exit {
 
- opacity: 0;
+   opacity: 0;
  
-}
+  }
 
-.fade-exit-active {
 
-opacity: 1;
-transition: opacity 2200ms;
+ .fade-exit-active {
 
-}
+ opacity: 1;
+ transition: opacity 2200ms;
+
+ }
+
+
 
 
 
  
 
+
+
+
+
+ 
+
+ 
+  
 
 
 

@@ -1,4 +1,4 @@
-import react from "react";
+
 import React, {useEffect, useState} from 'react';
 import NameData from "./NameData";
 import { SlArrowLeft, SlArrowRight } from 'react-icons/sl'
@@ -200,7 +200,6 @@ function Home() {
        <p style={{position: 'relative', position: 'relative', left: '615px', top: '-577px', color: 'white'}}>{value.partners}</p>
     
       
-
       </header>
       
       );
@@ -260,7 +259,7 @@ function Home() {
           name4: 'info@mysite.com'
         
         
-        
+          
            },
         
         
@@ -330,7 +329,7 @@ return (
 
 <div>
 
-<img style={firstImg} src='https://www.cavendishprofessionals.com/wp-content/uploads/2019/05/Construction-building-min.jpg'/>
+<img style={firstImg} src='https://www.fortunebuilders.com/wp-content/uploads/2019/05/best-places-to-buy-commercial-real-estate-1.jpg'/>
 <h1 style={styleFour}>Commercial</h1>
 <p style={styleFive}>Commercial real estate is an excellent opportunity for investing and generating outside income. There are numerous people over the years that have started to invest in commercial real estate, with this type of property being sold and purchased on a regular basis, this could be a great way to invest your money with the potential of a good return. Before anyone ever decides to invest in the commercial market, it is extremely important to understand the industry and all the components surrounding it</p>
 
@@ -491,13 +490,9 @@ return (
   
   ))}
   
-
- 
- 
-
-
  
 </div>
+
 
 
 

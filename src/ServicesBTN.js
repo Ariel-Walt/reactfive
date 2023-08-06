@@ -1,5 +1,5 @@
 
-import react from "react";
+
 import Services from "./Services";
 
 
@@ -103,8 +103,6 @@ let ServicesBTN = () => {
 
 
 
-
-
 return (
 
     
@@ -124,15 +122,15 @@ return (
     </header>
 
 
-     <header style={{position: 'relative', left: '88px', top: '185px'}}>
+     <header style={{position: 'relative', left: '70px', top: '155px'}}>
   
-            <h1 style={{fontWeight: '400', fontFamily: 'gill-sans', fontSize: '30px'}}>{value.commercialConstr}</h1>
+            <h1 style={{fontWeight: '450', fontFamily: 'gill-sans', fontSize: '30px'}}>{value.commercialConstr}</h1>
             <p style={{width: '470px', lineHeight: '35.5px', fontWeight: '350', fontFamily: 'Gill Sans', fontSize: '17px'}}>{value.commercialconstrPara}</p>
 
       </header>
 
 
-     <header style={{position: 'relative', top: '520px', left: '950px', zIndex: '1'}}>
+     <header style={{position: 'relative', top: '495px', left: '970px', zIndex: '1'}}>
 
              <h1 style={{fontWeight: '400', fontFamily: 'gill-sans', fontSize: '30px'}}>{value.residentialConstr}</h1>
              <p style={{width: '470px', lineHeight: '35.5px', fontWeight: '350', fontFamily: 'Gill Sans', fontSize: '17px'}}>{value.residentialconstrPara}</p>
@@ -141,14 +139,14 @@ return (
 
 
 
-     <header style={{position: 'relative', top: '820px', left: '100px'}}>
+     <header style={{position: 'relative', top: '805px', left: '86px'}}>
 
              <h1 style={{fontWeight: '400', fontFamily: 'gill-sans', fontSize: '30px'}}>{value.preConstr}</h1>
              <p style={{width: '470px', lineHeight: '35.5px', fontWeight: '350', fontFamily: 'Gill Sans', fontSize: '17px'}}>{value.preconstrPara}</p>
      </header>
 
 
-      <header style={{position: 'relative', left: '965px', zIndex: '1', top: '1150px'}}>
+      <header style={{position: 'relative', left: '980px', zIndex: '1', top: '1130px'}}>
 
               <h1 style={{fontWeight: '400', fontFamily: 'gill-sans', fontSize: '30px'}}>{value.specialPro}</h1>
               <p style={{width: '470px', lineHeight: '35.5px', fontWeight: '350', fontFamily: 'Gill Sans', fontSize: '17px'}}>{value.specialproPara}</p>
@@ -156,7 +154,7 @@ return (
       </header>
 
 
-      <header style={{position: 'relative', left: '105px', top: '1450px'}}>
+      <header style={{position: 'relative', left: '87px', top: '1450px'}}>
 
               <h1 style={{fontWeight: '400', fontFamily: 'gill-sans', fontSize: '30px'}}>{value.siteManagement}</h1>
               <p style={{width: '470px', lineHeight: '35.5px', fontWeight: '350', fontFamily: 'Gill Sans', fontSize: '17px'}}>{value.siteManagementPara}</p>
@@ -165,7 +163,7 @@ return (
 
 
 
-      <header style={{position: 'relative', left: '1000px', top: '1735px', zIndex: '1'}}>
+      <header style={{position: 'relative', left: '1000px', top: '1755px', zIndex: '1'}}>
 
               <h1 style={{fontWeight: '400', fontFamily: 'gill-sans', fontSize: '30px'}}>{value.infrastructureConstr}</h1>
               <p style={{width: '470px', lineHeight: '35.5px', fontWeight: '350', fontFamily: 'Gill Sans', fontSize: '17px'}}>{value.infrastructureconstrPara}</p>
@@ -181,7 +179,7 @@ return (
 
     <div>
 
-     <img style={{width: '850px', position: "relative", left: "585px", top: "-2000px"}} src="https://www.trimarkproperties.com/gainesville/commercial-real-estate/Ingenuity/assets/images/gallery/exterior-1.jpg" height="700px" />
+     <img style={{width: '850px', position: "relative", left: "585px", top: "-2000px"}} src="https://thespringdistrict.com/wp-content/uploads/2019/04/C02-Block24_WEB-1919x1080.jpg" height="700px" />
      <img style={{width: '800px', position: 'relative', left: '100px', top: '-2004px'}} src="https://www.berbay.com/wp/wp-content/uploads/2017/09/Real-estate-Storytelling.jpg" height="650px" />
      <img style={{width: '815px', position: 'relative', left: '615px', top: '-2008px'}} src="https://lemacon.com/wp-content/uploads/2020/01/PreConstructionImage.jpg" height="645px" />
      <img style={{width: '800px', position: 'relative', left: '105px', top: '-2012px'}} src="https://images.adsttc.com/media/images/5195/64bd/b3fc/4bc8/9b00/006c/large_jpg/069-hr-FNC_01.jpg?1368745135" height='645px' />
